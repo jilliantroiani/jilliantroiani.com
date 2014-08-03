@@ -42,7 +42,6 @@ namespace :deploy do
   end
 
   task :restart do
-    run("cd #{current_path} && bundle exec rake restart")
   end
 end
 
